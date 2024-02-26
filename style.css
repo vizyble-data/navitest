@@ -13,7 +13,7 @@ body {
     background-color: #106EBE; /* Blue background */
     color: white;
     border: none;
-    padding: 2% 5%; /* Padding as a percentage of button size */
+    padding: 10px 20px; /* Padding as a percentage of button size */
     text-align: center;
     text-decoration: none;
     display: inline-block;
