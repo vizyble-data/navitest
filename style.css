@@ -2,6 +2,7 @@ body {
     background-color: #d3d3d3; /* Light grey background */
     margin: 0;
     padding: 10px;
+    font-family: Arial, sans-serif; /* Set font to Arial with fallback to sans-serif */
 }
 .button-container {
     display: flex;
@@ -9,16 +10,18 @@ body {
     padding-top: 10px; /* Add space at the top of the container */
 }
 .search-button {
-    background-color: #106EBE; /* Blue background */
+    background-color: #0000ff; /* Blue background */
     color: white;
     border: none;
     padding: 2% 5%; /* Padding as a percentage of button size */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.5vw; /* Responsive font size based on viewport width */
+    font-size: 16px;
+    -- font-size: 1.5vw; /* Responsive font size based on viewport width */
     cursor: pointer;
     border-radius: 5px; /* Rounded corners */
     width: 30%; /* Set button width as a percentage of the container width */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-family: Arial, sans-serif; /* Set font to Arial with fallback to sans-serif */
 }
