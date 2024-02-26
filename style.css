@@ -18,7 +18,6 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    -- font-size: 1.5vw; /* Responsive font size based on viewport width */
     cursor: pointer;
     border-radius: 5px; /* Rounded corners */
     width: 30%; /* Set button width as a percentage of the container width */
