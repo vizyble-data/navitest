@@ -12,13 +12,13 @@ body {
     background-color: #0000ff; /* Blue background */
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 2% 5%; /* Padding as a percentage of button size */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.5vw; /* Responsive font size based on viewport width */
     cursor: pointer;
     border-radius: 5px; /* Rounded corners */
-    width: 200px; /* Set button width */
+    width: 30%; /* Set button width as a percentage of the container width */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
