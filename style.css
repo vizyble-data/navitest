@@ -20,7 +20,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px; /* Rounded corners */
-    width: 30%; /* Set button width as a percentage of the container width */
+    width: 200px; /* Set button width as a percentage of the container width */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
     font-family: Arial, sans-serif; /* Set font to Arial with fallback to sans-serif */
 }
