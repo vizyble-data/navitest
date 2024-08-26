@@ -2,25 +2,42 @@ body {
     background-color: #d3d3d3; /* Light grey background */
     margin: 0;
     padding: 10px;
-    font-family: Arial, sans-serif; /* Set font to Arial with fallback to sans-serif */
+    font-family: Arial, sans-serif; /* Set Arial font */
 }
+
 .button-container {
     display: flex;
-    justify-content: space-around; /* Distribute buttons evenly */
-    padding-top: 10px; /* Add space at the top of the container */
+    justify-content: left; /* Align buttons to the left side of the page */
+    gap: 10px; /* Space between buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line on smaller screens */
 }
+
 .search-button {
-    background-color: #106EBE; /* Blue background */
+    background-color: #0000ff; /* Blue background */
     color: white;
     border: none;
-    padding: 10px 20px; /* Padding as a percentage of button size */
+    padding: 1rem 2rem; /* Use rem units for responsiveness */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem; /* Use rem for font size */
+    margin: 0.5rem; /* Use rem for margin */
     cursor: pointer;
     border-radius: 5px; /* Rounded corners */
-    width: 200px; /* Set button width as a percentage of the container width */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    font-family: Arial, sans-serif; /* Set font to Arial with fallback to sans-serif */
+    font-family: Arial, sans-serif; /* Set Arial font for buttons */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .search-button {
+        font-size: 0.9rem; /* Slightly smaller font size */
+        padding: 0.8rem 1.5rem; /* Adjust padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .search-button {
+        font-size: 0.8rem; /* Even smaller font size */
+        padding: 0.6rem 1rem; /* Further adjust padding */
+    }
 }
